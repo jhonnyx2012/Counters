@@ -1,0 +1,36 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        maven { url 'https://maven.google.com' }
+        jcenter()
+        maven { url "https://www.jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+ext {
+    minSdkVersion = 18
+    compileSdkVersion = 26
+    targetSdkVersion = 25
+    buildToolsVersion = '26.0.2'
+    supportLibVersion = '27.0.1'
+    gsonVersion = '2.7'
+    runnerVersion = "0.5"
+    rulesVersion = "0.5"
+    retrofitVersion = "2.3.0"
+    rxjavaVersion = "2.0.1"
+    daggerVersion = "2.11"
+}

@@ -1,0 +1,6 @@
+<resources>
+    <string name="loading">Cargando…</string>
+    <string name="ok">OK</string>
+    <string name="ups">Ups!</string>
+    <string name="empty_string" translatable="false"/>
+</resources>

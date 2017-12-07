@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimpleCounters</string>
+    <string name="delete">Delete</string>
+    <string name="create_counter">Enter new counter name</string>
+    <string name="counters">Counters</string>
+    <string name="total">Total</string>
+    <string name="there_has_been_a_problem">There has been a problem</string>
+    <string name="enter_new_name">Enter a name</string>
+</resources>
